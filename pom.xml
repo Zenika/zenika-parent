@@ -41,6 +41,10 @@
     </license>
   </licenses>
 
+  <properties>
+    <logo>http://www.zenika.com/images/logo.png</logo>
+  </properties>
+
   <developers>
     <developer>
       <name>Adrien Lecharpentier</name>
