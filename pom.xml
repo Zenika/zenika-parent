@@ -40,5 +40,22 @@
       <distribution>repo</distribution>
     </license>
   </licenses>
-</project>
 
+  <developers>
+    <developer>
+      <name>Adrien Lecharpentier</name>
+      <roles>
+        <role>commiter</role>
+      </roles>
+    </developer>
+  </developers>
+
+  <contributors>
+    <contributor>
+      <name>Dridi Boukelmoune</name>
+    </contributor>
+    <contributor>
+      <name>Sidi Mohamed Elaatifi</name>
+    </contributor>
+  </contributors>
+</project>
