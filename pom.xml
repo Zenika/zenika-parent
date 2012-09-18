@@ -41,6 +41,16 @@
     </license>
   </licenses>
 
+  <scm>
+    <developerConnection>scm:git:git@github.com:Zenika/zenika-parent.git</developerConnection>
+    <connection>scm:git:git@github.com:Zenika/zenika-parent.git</connection>
+    <url>https://github.com/Zenika/zenika-parent</url>
+  </scm>
+
+  <issueManagement>
+    <url>https://github.com/Zenika/zenika-parent/issues</url>
+  </issueManagement>
+
   <properties>
     <logo>http://www.zenika.com/images/logo.png</logo>
   </properties>
