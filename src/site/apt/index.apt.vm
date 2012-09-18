@@ -1,0 +1,48 @@
+~~ Copyright 2012 Zenika
+~~
+~~ Licensed under the Apache License, Version 2.0 (the "License");
+~~ you may not use this file except in compliance with the License.
+~~ You may obtain a copy of the License at
+~~
+~~   http://www.apache.org/licenses/LICENSE-2.0
+~~
+~~ Unless required by applicable law or agreed to in writing, software
+~~ distributed under the License is distributed on an "AS IS" BASIS,
+~~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+~~ See the License for the specific language governing permissions and
+~~ limitations under the License. 
+
+Welcome to ${project.name}!
+
+* Usage
+
+  To be able to use this POM, make sure to add the following code to the POM of
+  your project
+
++-----+
+<project>
+  [...]
+  <parent>
+    <groupId>${project.groupId}</groupId>
+    <artifactId>${project.artifactId}</artifactId>
+    <version>${project.version}</version>
+  </parent>
+  [...]
+</project>
++-----+
+
+* Before releasing
+
+  There are some facts to check before you start to release your project:
+
+  * make sur your groupId is `com.zenika` or is not set (will use the current
+    groupId)
+
+  * make sur you set your License in your pom and in the LICENSE file
+
+  * make sur you have a correct gpg key pair for your @zenika.com email
+
+* Site publishing on gh-pages
+
+  * to be able to upload your project documentation to gh-pages, make sur you
+    set your github username and key.
